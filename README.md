@@ -12,7 +12,7 @@ This project implements the Caesar cipher, a basic encryption technique, in Pyth
    - The function iterates through each letter in the `original_text`. For alphabetic characters, it calculates their new position by adding the `shift_amount` to their index in the `alphabet` list. The modulo operation ensures that the shifting wraps around the alphabet if necessary. Non-alphabet characters, such as spaces or punctuation, are directly appended to the output without modification.
    - The function then prints the encoded or decoded result.
 
-3. *User Interaction:
+3. User Interaction:
    - The program starts by displaying an ASCII art logo from the `art` module, creating an engaging introduction to the cipher tool.
    - It then enters a loop where the user is prompted to choose between encoding or decoding a message, input their text, and specify the shift value.
    - The `caesar` function processes the input, and the result is displayed to the user.
